@@ -139,7 +139,7 @@
    { "source": "/552",  "destination": "https://15jamrecipe.jimdofree.com/ichigonquest/%E3%81%BC%E3%81%86%E3%81%91%E3%82%93%E3%81%97%E3%82%87%E3%81%AE%E3%81%8D%E3%82%8D%E3%81%8F/%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E7%94%BB%E9%9D%A2/" },
    { "source": "/551",  "destination": "https://15jamrecipe.jimdofree.com/ichigonquest/%E3%81%BC%E3%81%86%E3%81%91%E3%82%93%E3%81%97%E3%82%87%E3%81%AE%E3%81%8D%E3%82%8D%E3%81%8F/%E9%A2%A8%E8%88%B9/" },
    { "source": "/550",  "destination": "https://15jamrecipe.jimdofree.com/ichigonquest/%E3%81%BC%E3%81%86%E3%81%91%E3%82%93%E3%81%97%E3%82%87%E3%81%AE%E3%81%8D%E3%82%8D%E3%81%8F/l-%E3%83%81%E3%82%AB/" },
-   { "source": "/0",    "destination": "http://kidspod.club/profile/default.html?id=6" }
+   { "source": "/0",    "destination": "http://kidspod.club/profile/default.html?id=6" },
    { "source": "/",     "destination": "https://github.com/fu-sen/k.bal.gdn" }
   ]
 }
