@@ -14,7 +14,7 @@ ___
 
 ### Powered by ▲Vercel
 
-Powered by [▲Vercel](https://vercel.com/)
+[▲Vercel](https://vercel.com/)
 
 ▲Vercel の `vercel.json` で容易に転送操作できます。\
 ファイルも `vercel.json` にも該当がない場合は\
