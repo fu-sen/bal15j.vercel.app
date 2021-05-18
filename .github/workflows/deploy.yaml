@@ -1,13 +1,12 @@
-name: Deploy
+name: Deploy Website
 on: [push]
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
-      - uses: actions/checkout@master
-      - uses: cloudflare/wrangler-action@1.3.0
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2-beta
         with:
-          apiToken: ${{ secrets.CF_API_TOKEN }}
-        env:
-          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
-          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          node-version: 14
+      - run: npm i -g @cloudflare/wrangler
+      - run: wrangler publish
