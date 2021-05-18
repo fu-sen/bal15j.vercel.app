@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "name": "k_bal_gdn",
+  "version": "0.20210519.0",
+  "description": "URL redirect aka short URL powered by Cloudflare Workers",
+  "main": "index.js"
+}
