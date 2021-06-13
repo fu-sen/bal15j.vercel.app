@@ -53,6 +53,12 @@ KV を使わずにファイルに直接記載する方法にしてあります�
 いくつか転送ができる Web サービスを把握しているため、\
 後に使用する Web サービスを変更する可能性があります。
 
+- [Deno Deploy](https://deno.com/deploy)
+
+`index.js` は同じ仕組みを採用している Deno Deploy でも\
+動作する事を確認しているため、こちらは予備サーバとなるでしょう。\
+Deno Deploy も日本では東京・大阪にサーバがあります。
+
 ___
 
 Powered by [Cloudflare Workers](https://workers.cloudflare.com/)
