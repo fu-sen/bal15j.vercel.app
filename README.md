@@ -13,7 +13,7 @@ ___
 
 ## 転送 URL の確認
 
-転送先を確認できるように GitHub でソースを公開しています。\
+転送先を確認できるように GitHub でソースを公開しています。
 
 - [Deno Deploy](https://deno.com/deploy)
 - [Deno Deploy | ふうせん🎈 FU-SEN](https://balloon.asia/deno-deploy/)
