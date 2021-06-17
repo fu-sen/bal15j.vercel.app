@@ -43,11 +43,12 @@ const redir = new Map([
 
 Deno Deploy を採用する前は Cloudflare Workers を使用しています。\
 この 2 サービスは JavaScript ソースで互換性があります。\
-Deno Deploy が公開ソースをシンプルにできるのと、\
+Deno Deploy を用いた方が公開ソースをシンプルにできたのと、\
 Cloudflare Workers は Workers Site も使用していたため、\
-Deno Deploy で動作可能な環境は移してサーバを分散する事にしました。
-
-幸い Deno Deploy でそのまま動作可能なソースの状態で維持できていました。
+Deno Deploy で動作可能な環境を移す事でサーバ処理を分散し、\
+将来的に発生する恐れがある制限を少しでも回避できるように考慮しました。\
+ソースのみで完結できるようにしていたため、\
+幸いソースの修正なく Deno Deploy でそのまま動作できました。
 
 - [独自ドメインで独自の短縮 URL を作る方法。| ふうせん🎈 FU-SEN](https://balloon.asia/2020/02/%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%A7%E7%8B%AC%E8%87%AA%E3%81%AE%E7%9F%AD%E7%B8%AE-url-%E3%82%92%E4%BD%9C%E3%82%8B%E6%96%B9%E6%B3%95/)
 
