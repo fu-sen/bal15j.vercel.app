@@ -1,4 +1,5 @@
 const redir = new Map([
+  ["/2074" , "https://balloon.tel/"],
   ["/2064" , "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/ichigojam-7-%E5%91%A8%E5%B9%B4/"],
   ["/2063" , "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/ichigojam-7-%E5%91%A8%E5%B9%B4/"],
   ["/1050" , "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/lrun-0/"],
