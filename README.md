@@ -15,47 +15,28 @@ ___
 
 転送先を確認できるように GitHub でソースを公開しています。
 
-- [Deno Deploy](https://deno.com/deploy)
-- [Deno Deploy | ふうせん🎈 FU-SEN](https://balloon.asia/deno-deploy/)
+- [▲ Vercel](https://vercel.com/)
+- [Vercel | ふうせん🎈 FU-SEN](https://balloon.asia/vercel/)
 
-2021年6月18日より Deno Deploy  を採用しています。\
-わざわざソースを記載する必要がありますが、世界各地のエッジサーバで処理され、\
-日本でも東京・大阪にエッジサーバが存在します。
-
-`k.bal.gdn.js` のソースにリストを入れています。ここで 転送元・先 を確認可能です。
+2021年12月6日より ▲ Vercel  を採用しています。\
+`vercel.json` で転送処理ができます。このファイルで 転送元・先 を確認可能です。
 
 ```
-const redir = new Map([
-  ["転送元", "転送先"],
-  ["転送元", "転送先"],
+{
+  "redirects": [
+    { "source": "転送元", "destination": "転送先" },
+    { "source": "転送元", "destination": "転送先" },
 
            :
 
-  ["転送元", "転送先"],
-  ["転送元", "転送先"]
+    { "source": "転送元", "destination": "転送先" },
+    { "source": "転送元", "destination": "転送先" }
 ])
 ```
 
-記載のない参照は Not Found です。
-
-- [Cloudflare Workers](https://workers.cloudflare.com/)
-- [Cloudflare Workers | ふうせん🎈 FU-SEN](https://balloon.asia/cloudflare-workers/)
-
-Deno Deploy を採用する前は Cloudflare Workers を使用しています。\
-この 2 サービスは JavaScript ソースで互換性があります。\
-Deno Deploy を用いた方が公開ソースをシンプルにできたのと、\
-Cloudflare Workers は Workers Site も使用していたため、\
-Deno Deploy で動作可能な環境を移す事でサーバ処理を分散し、\
-将来的に発生する恐れがある制限を少しでも回避できるように考慮しました。\
-ソースのみで完結できるようにしていたため、\
-幸いソースの修正なく Deno Deploy でそのまま動作できました。
-
-- [独自ドメインで独自の短縮 URL を作る方法。| ふうせん🎈 FU-SEN](https://balloon.asia/2020/02/%E7%8B%AC%E8%87%AA%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%E3%81%A7%E7%8B%AC%E8%87%AA%E3%81%AE%E7%9F%AD%E7%B8%AE-url-%E3%82%92%E4%BD%9C%E3%82%8B%E6%96%B9%E6%B3%95/)
-
-いくつか転送ができる Web サービスを把握しているため、\
-後に使用する Web サービスを変更する可能性があります。\
-（実際数ヶ月おきに変更しています）
+記載のない参照は特別処理をしない場合はファイルを参照・表示しますが、\
+該当ファイルがなければ `404.html` を表示します。（Not Found）
 
 ___
 
-Powered by [Deno Deploy](https://deno.com/deploy)
+Powered by [▲ Vercel](https://vercel.com/)
