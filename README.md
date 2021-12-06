@@ -15,10 +15,10 @@ ___
 
 転送先を確認できるように GitHub でソースを公開しています。
 
-- [▲ Vercel](https://vercel.com/)
+- [▲Vercel](https://vercel.com/)
 - [Vercel | ふうせん🎈 FU-SEN](https://balloon.asia/vercel/)
 
-2021年12月6日より ▲ Vercel  を採用しています。\
+2021年12月6日より ▲Vercel  を採用しています。\
 `vercel.json` で転送処理ができます。このファイルで 転送元・先 を確認可能です。
 
 ```
@@ -39,4 +39,4 @@ ___
 
 ___
 
-Powered by [▲ Vercel](https://vercel.com/)
+Powered by [▲Vercel](https://vercel.com/)
