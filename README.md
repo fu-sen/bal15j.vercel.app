@@ -1,4 +1,4 @@
-## k.bal.gdn
+## bal15j.vercel.app
 
 - [Kidspod;](http://kidspod.club/)
 - [イチゴジャム レシピ](https://15jamrecipe.jimdofree.com/)
@@ -8,6 +8,9 @@ Kidspod; で公開しているプログラム等から「プログラムをみ�
 イチゴジャム レシピ で採用している [Jimdo](https://www.jimdo.com/jp/) では\
 URL に日本語を使用するため、長く分かりにくい URL になってしまいます。\
 そこで専用の短縮 URL を作成し、改善する事にしました。
+
+2022年10月26日より Vercel のドメイン `.vercel.app` を用いた\
+`bal15j.vercel.app` を採用しています。
 
 ___
 
