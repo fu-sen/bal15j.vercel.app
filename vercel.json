@@ -1,5 +1,6 @@
 {
   "redirects": [
+    { "source": "/2228", "destination": "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%96/" },
     { "source": "/2064", "destination": "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/ichigojam-7-%E5%91%A8%E5%B9%B4/" },
     { "source": "/2063", "destination": "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/ichigojam-7-%E5%91%A8%E5%B9%B4/" },
     { "source": "/1050", "destination": "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/lrun-0/" },
