@@ -1,5 +1,6 @@
 {
   "redirects": [
+    { "source": "/2231", "destination": "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/blastar/" },
     { "source": "/2230", "destination": "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/blastar/" },
     { "source": "/2229", "destination": "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/blastar/" },
     { "source": "/2228", "destination": "https://15jamrecipe.jimdofree.com/basic/%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0/%E3%82%B5%E3%82%A4%E3%83%B3%E3%82%AB%E3%83%BC%E3%83%96/" },
